@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    </div>
+    <div class="header">
+      <h1>Ayuda a Burbuja  <br>y derrota al enemigo </h1>
+      <p>Ataca a tu oponente y ayuda a las chicas a salvar Saltadilla <br> del temible monstruo que quiere arruinar la ciudad </p>
+
+      <button> <a href="#juego">¡Quiero jugar!</a> </button>
+      <button><a href="#proceso">Conocer el proceso creativo</a></button>
+      <button><a href="#ag">aventura grafica</a></button>
+    </div>
+
+
+    <div class="paper container">
+        <h1 class="titulo">Conoce mas de los personajes...</h1>
+        <div class="row">
+            <div class="card col-3 col">
+            <img src="img/burbuja.webp" alt="Card example image">
+          
+            <div class="card-body">
+              <h4 class="card-title">Burbuja</h4>
+              <p class="card-text">Ella es la alegría y la risa, siendo el "pegamento emocional" que une al trío de superhéroinas. Ella es el ingrediente "azúcar" de las tres. </p>
+            </div>
+            </div>
+            <div class="card col-3 col" style="width: 10rem;">
+                <img class="bombon" src="img/bombon 1.png" alt="Card example image">
+              
+                <div class="card-body">
+                  <h4 class="card-title">Bombon</h4>
+                  <p class="card-text">Ella es la brillante líder del trío de superhéroinas, es de pensamiento rápido, lógica, analítica y tiene un fuerte sentido de la justicia</p>
+                </div>
+            </div>
+            <div class="card col-3 col" style="width: 10rem;">
+                <img src="img/bellota 1.png" alt="Card example image">
+              
+                <div class="card-body">
+                  <h4 class="card-title">Bellota</h4>
+                  <p class="card-text">Ella es la luchadora más dura del grupo de superhéroes.De carácter salvaje amante de la diversión y la acción.</p>
+                </div>
+            </div>
+            <div class="card col-3 col" style="width: 10rem;">
+                <img src="img/img5.png" alt="Card example image">
+              
+                <div class="card-body">
+                  <h4 class="card-title">Monstruo</h4>
+                  <p class="card-text">Un dia normal en la ciudad aparece este enemigo para destruir Saltadilla y poder adueñarse del territorio</p>
+                </div>
+            </div>
+
+          </div>
+      </div>
+
+
+      <div class="paper container">
+        <h1 class="titulo">Aventura grafica</h1>
+        <p id="ag" class="p2">Mi aventura grafica sobre las chicas superpoderosas es una constante seleccion de diferentes caminos, donde el usuario ayuda a Bombon y Bellota para subirle el animo a Burbuja. Recurren a muchas opciones donde cada eleccion cambia el rumbo de la narrativa, en total hay 3 finales alternativos, en dos de ellos el usuario tiene que ayudar a Burbuja con el enemigo que esta atacando a Saltadilla.En el final que resta el usuario no logra ayudar a Burbuja ni salvar la ciudad y sus hermanas, por lo tanto perderan la A.G y no llegaran a la instancia donde se presenta el minijuego. <a href="https://www.figma.com/proto/VhjhmjeT0n3J3bBpDAqfCu/Untitled?node-id=0-3&node-type=canvas&t=IfaqnldXTv0ybhlB-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1">Link al mapa conceptual</a> </p>
+
+        <img src="img/i1.png" alt="" srcset="">
+
+    </div>
+
+
+
+      <div class="paper container" style="margin-bottom: 20px;">
+        <h1 id="proceso" class="titulo">Proceso creativo</h1>
+        <p  class="p2">Utilizando una serie animada que marco la vida de muchas personas, pude darle vida en formato de mini juego a las chicas super poderosas. Esta aventura surge de un capitulo en el cual burbuja esta triste y sus hermanas hacen lo necesario para poder levantarle el animo. <br> Al no poder lograrlos estas se rinden, minutos despues les alertan <br> que hay un monstruo acechando la ciudad de Saltadilla y Burbuja <br> al verlas desde su habitacion luchando solas, decide salir de su <br> casa y ayudarlas con el enemigo..</p>
+        <h1 class="t1">BURBUJA</h1>
+        <p class="p2">El rol del usuario en este juego es primordial, controlando al <br> personaje de Burbuja, este necesita estar atento al momento <br> de atacar y esquivar al enemigo, requiere concentracion para poder <br> usar este personaje y poder salir victorioso.</p>
+        <img class="burbuja" src="img/burbuja-t.png" alt="" srcset="">
+
+        <div class="cont">
+            <li>
+                Burbuja puede moverse de izquierda a derecha
+            </li>
+            <li>Puede atacar al enemigo con sus municiones
+            </li>
+            <li>
+                Tiene 3 vidas, al llegar a 0 pierde el juego
+            </li>
+
+        </div>
+      </div>
+
+      <div class="paper container">
+        <p class="p2">Te animas a probar este minijuego y ser capaz de coordinar tus habilidades motrices para poder esquivar y al mismo tiempo poder atacar a tu enemigo? Gana y salva la ciudad del temible monstruo antes de quedarte sin vidas!</p>
+
+        <div id="juego" class="row flex-spaces child-borders">
+            <label class="paper-btn margin" for="modal-1">Jugar</label>
+          </div>
+          <input class="modal-state" id="modal-1" type="checkbox">
+          <div class="modal">
+            <label class="modal-bg" for="modal-1"></label>
+            <div class="modal-body">
+              <label class="btn-close" for="modal-1">X</label>
+               <iframe src="tpfinalparte2_js/index.html" frameborder="0" width="680" height="500"></iframe>
+            </div>
+          </div>
+
+      </div>
+
+      <div class=" container">
+        <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible">
+            <label class="p2" for="collapsible1">Alumna</label>
+            <div class="collapsible-body">
+              <span class="p2">Micaela castañeda<br>  legajo:935666</span>
+            </div>
+          </div>
+
+      </div>
+
+
+  </body>
+</html>

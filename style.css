@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+      body {
+        background-color: #58b2e7;
+        margin: 0;
+        font-family: "Marmelad", sans-serif;
+      }
+
+      .header {
+        text-align: left;
+        padding: 1rem 1rem;
+        background: url('img/chicas2.png') no-repeat center/cover;
+        color: black;
+      }
+
+      .header h1 {
+        font-family: "Bangers", cursive;
+        font-size: 3rem;
+
+      }
+      .t1{
+        font-family: "Bangers", cursive;
+        font-size: 45px;
+      }
+
+      .header p {
+        font-size: 1.2rem;
+      }
+
+      .header button {
+        margin: 1rem 0.5rem;
+        padding: 0.8rem 1.5rem;
+        background-color: #f289b8;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      .header button a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 1rem;
+      }
+
+      .titulo {
+        font-family: "Bangers", cursive;
+        font-size: 2rem;
+        color: #1a577a;
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+      }
+
+      .card {
+        flex: 1 1 calc(25% - 1rem);
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+
+      .card-body {
+        padding: 1rem;
+        text-align: center;
+      }
+
+      .card-title {
+        font-family: "Bangers", cursive;
+        font-size: 1.5rem;
+        margin: 0.5rem 0;
+      }
+
+      .card-text {
+        font-size: 0.9rem;
+        color: #333;
+      }
+
+      .p2 {
+        line-height: 1.6;
+        margin: 1rem 0;
+        color: #333;
+      }
+
+      .burbuja {
+        display: block;
+        margin: 3rem auto;
+        margin-left: 600px;
+        margin-top: -380px;
+        width: 500px;
+
+        border-color: aliceblue;
+      }
+      .cont {
+        margin: 2rem auto;
+        padding: 1rem;
+        border-radius: 20px;
+        background-color: #1a577a;
+        color: white;
+        max-width: 800px;
+        text-align: center;
+      }
+
+      .cont li {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #f289b8;
+        color: white;
+        font-size: 0.9rem;
+      }
+
+      .collapsible {
+        max-width: 600px;
+        margin: 2rem auto;
+      }
+
+      @media (max-width: 768px){
+
+        .burbuja{
+            margin-left: 0px;
+            width: 200px;
+            margin-top: 10px;
+        }
+
+      }
+    
